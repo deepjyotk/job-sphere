@@ -32,6 +32,9 @@ cd ./job-sphere-api-gateway
 
 ### Architecture
 
+#### Architecture Diagram
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/af265709-a104-4325-9fbe-b361ecc85e47">
+
 The system consists of the following components:
 
 1. **API Gateway (Nginx)**:
@@ -68,6 +71,7 @@ The system consists of the following components:
 - **Java 17** or above
 - **Docker** and **Docker Compose**
 - **MongoDB** (if not using Docker)
+
 
 ### Getting Started
 
