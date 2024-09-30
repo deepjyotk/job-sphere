@@ -81,26 +81,6 @@ git clone https://github.com/your-repo/job-sphere.git
 cd job-sphere
 ```
 
-#### Running the Application with Docker
-
-1. Build and run the containers:
-   ```bash
-   docker-compose up --build
-   ```
-
-2. Once the containers are up, access the API Gateway via the Nginx exposed port (default: `8080`).
-
-#### Running the Application Locally (without Docker)
-
-1. Start MongoDB locally or use a remote instance.
-2. Update the `application.properties` with the MongoDB connection string.
-3. Run the services individually:
-   ```bash
-   mvn spring-boot:run
-   ```
-   Repeat this for both the **Job Sphere Service** and **Job Seeker Service**.
-
-4. Use Nginx or another API Gateway to route traffic to the services, or access services directly on their respective ports.
 
 ### API Endpoints
 
